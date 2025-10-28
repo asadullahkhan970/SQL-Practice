@@ -69,4 +69,5 @@ select employeeid,firstname,Salary from #1 where EmployeeID in (10)
 update #1 set employeeid = 100 where EmployeeID not in (select distinct employeeid from cte3
 union all
 select distinct EmployeeID from cte4
+
 )
