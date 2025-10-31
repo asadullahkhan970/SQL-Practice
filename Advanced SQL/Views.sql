@@ -33,4 +33,5 @@ select * from View_2
 
 ----------
 
+
 drop view View_2
